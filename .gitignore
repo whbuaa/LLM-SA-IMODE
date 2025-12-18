@@ -31,7 +31,6 @@ resources/project/
 *~
 *.swp
 *.swo
-.DS_Store
 Thumbs.db
 
 # Output and Results
