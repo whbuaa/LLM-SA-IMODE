@@ -1,0 +1,53 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.fig
+*.mat
+*.slx.autosave
+*.slxc
+slprj/
+sccprj/
+
+# MATLAB Code Generation
+codegen/
+
+# MATLAB Compiled Functions
+*.p
+
+# MATLAB App Files
+*.mlapp
+*.mlappinstall
+*.mltbx
+
+# MATLAB Project Files
+*.prj
+resources/project/
+
+# Simulink
+*.slxp
+
+# Temporary files
+*~
+*.swp
+*.swo
+Thumbs.db
+
+# Output and Results
+results/
+*.log
+*.txt
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-*
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
