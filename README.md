@@ -70,10 +70,12 @@ The LLM_SA_IMODE algorithm accepts the following parameters:
 ## Output
 
 The algorithm generates `.mat` files containing:
-- `*_sign_res.mat`: Results for significance comparison
-- `*_med_res.mat`: Median and IQR (Interquartile Range) results
-- `*_avg_res.mat`: Average results with standard deviation
-- `*_avg_time.mat`: Average execution time with standard deviation
+- `<AlgorithmName><Problems><Dimension>_sign_res.mat`: Results for significance comparison
+- `<AlgorithmName><Problems><Dimension>_med_res.mat`: Median and IQR (Interquartile Range) results
+- `<AlgorithmName><Problems><Dimension>_avg_res.mat`: Average results with standard deviation
+- `<AlgorithmName><Problems><Dimension>_avg_time.mat`: Average execution time with standard deviation
+
+For example, running on F1-F7 with dimension 50 generates files like: `LLM-SA-IMODEF1-F750_med_res.mat`
 
 Results are organized with:
 - Rows: Test problems
@@ -97,7 +99,7 @@ The algorithm combines:
 ### Reference
 
 The algorithm is based on:
-> K. M. Sallam, S. M. Elsayed, R. K. Chakrabortty, and M. J. Ryan, "Improved multi-operator differential evolution algorithm for solving unconstrained problems," Proceedings of the IEEE Congress on Evolutionary Computation, 2020.
+> K. M. Sallam, S. M. Elsayed, R. K. Chakrabortty, and M. J. Ryan, "Improved multi-operator differential evolution algorithm for solving unconstrained problems," in Proceedings of the 2020 IEEE Congress on Evolutionary Computation (CEC), Glasgow, UK, 2020, pp. 1-8, doi: 10.1109/CEC48606.2020.9185577.
 
 ## Citation
 

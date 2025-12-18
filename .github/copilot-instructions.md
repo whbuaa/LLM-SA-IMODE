@@ -182,7 +182,7 @@ end
 
 ## Common Pitfalls
 
-1. **Path issues**: Update hardcoded paths (e.g., line 34 in `run.m`)
+1. **Path issues**: Update hardcoded paths in `run.m` (look for `cd` command with absolute path that needs to point to your result directory)
 2. **Dimension mismatch**: Ensure array dimensions match for operations
 3. **Class methods**: Must have `obj` or class name as first parameter
 4. **Global state**: Be careful with persistent variables and global state in MATLAB
