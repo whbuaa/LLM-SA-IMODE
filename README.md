@@ -57,14 +57,14 @@ LLM-SA-IMODE/
 ├── refine_evo.m         # Refinement evolution function with surrogate model
 ├── run.m                # Example script for running experiments
 └── Problems/            # Test problem functions
-    ├── F1-F7/          # CEC2013 benchmark functions (F1-F7)
+    ├── F1-F7/          # Benchmark functions (F1-F7)
     │   ├── F1.m        # Shifted elliptic function
-    │   ├── F2.m        # Shifted Rastrigin's function
-    │   ├── F3.m        # Shifted Ackley's function
-    │   ├── F4.m        # Shifted Schwefel's function
-    │   ├── F5.m        # Shifted Rosenbrock's function
-    │   ├── F6.m        # Shifted Griewank's function
-    │   └── F7.m        # Shifted Weierstrass function
+    │   ├── F2.m        # Generalized Rosenbrock's function
+    │   ├── F3.m        # Ackley's function
+    │   ├── F4.m        # Generalized Griewank's function
+    │   ├── F5.m        # Generalized Rastrigin's function
+    │   ├── F6.m        # Shifted elliptic function (CEC2013)
+    │   └── F7.m        # Shifted elliptic function (CEC2013)
     ├── YLL/            # Additional single-objective problems (SOP_F1-F13)
     ├── PROBLEM.m       # Base problem class
     ├── SOLUTION.m      # Solution representation class
