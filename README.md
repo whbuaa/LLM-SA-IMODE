@@ -125,11 +125,12 @@ You can also use the algorithm through the PlatEMO framework:
 ### Algorithm Parameters
 
 - **minN**: Minimum population size (default: 4)
-- **aRate**: Ratio of archive size to population size (default: 5)
+- **aRate**: Ratio of archive size to population size (default: 5, recommended: 2.6)
 
 Example with custom parameters:
 
 ```matlab
+% Use recommended parameter values
 Algorithm = LLM_SA_IMODE('parameter', {4, 2.6});
 ```
 
