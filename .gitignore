@@ -1,0 +1,33 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.mat
+*.slx.autosave
+*.slxc
+slprj/
+*.autosave
+
+# PlatEMO Results
+*_res.mat
+*_sign_res.mat
+*_med_res.mat
+*_avg_res.mat
+*_avg_time.mat
+Data/
+Result/
+result/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporary files
+tmp/
+temp/
