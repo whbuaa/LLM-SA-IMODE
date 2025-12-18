@@ -104,9 +104,13 @@ Use the provided `run.m` script to conduct comprehensive experiments:
 run
 ```
 
-**Important**: Before running `run.m`, update line 34 with your local path:
+**Important**: Before running `run.m`, update line 34 with your local path. Change from:
 ```matlab
-cd 'YOUR_PATH_HERE'  % Replace with your actual path
+cd 'C:\Users\chengzi\Desktop\LLM-SA-IMODE'  % Original path
+```
+to your actual path:
+```matlab
+cd 'YOUR_LOCAL_PATH_HERE'  % Your actual directory path
 ```
 
 ### Algorithm Parameters
