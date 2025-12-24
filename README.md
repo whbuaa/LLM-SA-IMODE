@@ -16,6 +16,7 @@ LLM-SA-IMODE (Large Language Model-based Self-Adaptive Improved Multi-Operator D
 
 - MATLAB R2018a or higher
 - Python 3.x with scikit-learn (for KNN classifier)
+- MATLAB Python integration configured (use `pyenv` to verify Python is accessible)
 - PlatEMO framework integration
 
 ## Project Structure
@@ -80,10 +81,12 @@ To run comprehensive experiments across multiple problems and dimensions:
    - `problem_name`: Test problems (F1-F7)
    - `D_N`: Problem dimensions to test
 
-2. **Important**: Update the save path in `run.m` (line 34):
+2. **Important**: Update the save path in `run.m` (line 34) to your local directory:
    ```matlab
-   cd 'C:\Users\YourUsername\Desktop\LLM-SA-IMODE'
+   cd 'path/to/your/LLM-SA-IMODE'
    ```
+   
+   The default path in the file is: `'C:\Users\chengzi\Desktop\LLM-SA-IMODE'`
 
 3. Run the script:
    ```matlab
@@ -99,6 +102,7 @@ The algorithm accepts two main parameters:
 
 Example with custom parameters:
 ```matlab
+% Using custom aRate value (2.6 instead of default 5)
 platemo('algorithm', {@LLM_SA_IMODE, 4, 2.6}, ...
         'problem', @F1, ...
         'N', 10, 'D', 100, 'maxFE', 5000)
